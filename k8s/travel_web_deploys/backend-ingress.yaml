@@ -5,6 +5,7 @@ metadata:
   namespace: default
   annotations:
     kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/group.name: be-group # Group khác
 spec:
   rules:
     - http:
