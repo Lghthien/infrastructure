@@ -4,15 +4,15 @@ metadata:
   name: backend-ingress
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: traefik # Đổi thành nginx nếu dùng nginx
+    kubernetes.io/ingress.class: alb
 spec:
   rules:
-    -http:
-      paths:
-        - path: /
-          pathType: Prefix
-          backend:
-            service:
-              name: backend-service
-              port:
-                number: 4000
+    - http:
+        paths:
+          - path: /backend
+            pathType: Prefix
+            backend:
+              service:
+                name: backend-service
+                port:
+                  number: 4000
