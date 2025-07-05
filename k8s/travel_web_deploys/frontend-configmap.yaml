@@ -4,5 +4,5 @@ metadata:
   name: frontend-env-config
   namespace: default
 data:
-  NEXT_PUBLIC_API_URL: "http://localhost:4000"
-  HOST: "localhost"
+  NEXT_PUBLIC_API_URL: "http://http://a2c622c8d16f642d4a421888b1807521-1932816195.us-east-1.elb.amazonaws.com/backend"
+  HOST: "http://a2c622c8d16f642d4a421888b1807521-1932816195.us-east-1.elb.amazonaws.com"
