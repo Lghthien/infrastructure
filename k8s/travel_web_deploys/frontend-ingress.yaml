@@ -4,7 +4,7 @@ metadata:
   name: frontend-ingress
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: traefik # hoặc nginx nếu dùng nginx
+    kubernetes.io/ingress.class: alb
 spec:
   rules:
     - http:
