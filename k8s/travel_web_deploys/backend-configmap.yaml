@@ -6,7 +6,7 @@ metadata:
 data:
   JWT_SECRET: "4d1620c0-0207-420d-beac-df2a5602066d"
   JWT_ACCESS_TOKEN_EXPIRATION: 10d
-  JWT_REFRESH_TOKEN_EXPIRATION: 10d
+  JWT_REFRESH_TOKEN_EXPIRATION: 100d
   MONGO_URL: "mongodb+srv://root:123@travelweb.9pr59mm.mongodb.net/travelweb?retryWrites=true&w=majority"
   URL_FRONTEND: "http://a2c622c8d16f642d4a421888b1807521-1932816195.us-east-1.elb.amazonaws.com"
   URL_BACKEND: ""
